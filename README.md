@@ -2,8 +2,8 @@
 
 A web application to visualize and understand various sorting algorithms. Easily generate arrays, select sorting algorithms, and watch the sorting process in real-time with beautiful animations.
 
-### 🔗 Project Link
-[🔍 View the Sorting Visualizer Project](https://github.com/your-username/your-repo-name)
+###  Project Link
+[ View the Sorting Visualizer Project](https://sorting-visualizer-omega-two.vercel.app/)
 
 ## Features
 - Visualize popular sorting algorithms (e.g., Quick Sort)
