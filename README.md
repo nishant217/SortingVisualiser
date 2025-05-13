@@ -10,7 +10,7 @@ A web application to visualize and understand various sorting algorithms. Easily
 ## Screenshots
 
 ### Initial State (Sorted Array)
-![Sorting Visualizer - Sorted](images/sorting-visualizer-sorted.png)
+![Sorting Visualizer - Sorted](images/sorting-visualizer-sorted.)
 
 ### During Sorting (Quick Sort in Action)
 ![Sorting Visualizer - Sorting](images/sorting-visualizer-sorting.png)
