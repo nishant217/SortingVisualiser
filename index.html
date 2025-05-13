@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Sorting visualizer</title>
+</head>
+
+<body>
+    
+    <div class="nav-container">
+        <h2 class="title" onclick="window.location.reload()">
+            Sorting Visualizer
+        </h2>
+        <div>
+            <p class="connect">Connect with me. 
+                <a href="https://github.com/nikunjgupta609" target="_blank" class="link">
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+            </p>
+        </div>
+        
+    </div>
+    
+    <div class="algo-title"></div>
+    <div class="center">
+        <div class="array"></div>
+    </div>
+    <div class="navbar" id="navbar">
+        <a id="random" onclick="RenderScreen()">Generate array</a>
+        <span class="options">
+            <select name="select sort algorithm" id="menu" class="algo-menu">
+                <option value="0">Choose algorithm</option>
+                <option value="1">Bubble Sort</option>
+                <option value="2">Selection Sort</option>
+                <option value="3">Insertion Sort</option>
+                <option value="4">Merge Sort</option>
+                <option value="5">Quick Sort</option>
+            </select>
+        </span>
+        <span class="options">
+            <select name="select array size" id="menu" class="size-menu">
+                <option value="0">Array size</option>
+                <option value="5">5</option>
+                <option value="10" selected>10</option>
+                <option value="15">15</option>
+            </select>
+        </span>
+        <span class="options">
+            <select name="speed of visualization" id="menu" class="speed-menu">
+                <option value="0">Speed</option>
+                <option value="0.5">0.50x</option>
+                <option value="0.75" selected>0.75x</option>
+                <option value="1">1.00x</option>
+            </select>
+        </span>
+        <a class="start">Sort</a>
+        <a class="icon"><i class="fa fa-bars"></i></a>
+    </div>
+    
+    <script src="./scripts/app.js"></script>
+    <script src="./scripts/helper.js"></script>
+    <script src="./scripts/sort-algorithms.js"></script>
+</body>
+
+</html>
